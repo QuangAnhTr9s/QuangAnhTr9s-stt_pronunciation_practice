@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSSpeechRecognitionUsageDescription</key>
+    	<string>The app needs to recognize your voice for pronunciation practice. You can share that permission with us.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    	<string>The app needs to recognize your micro for pronunciation practice. You can share that permission with us.</string>
 </dict>
 </plist>
