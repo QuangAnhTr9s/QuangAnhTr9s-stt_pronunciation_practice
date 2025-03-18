@@ -99,7 +99,7 @@ class _PracticePageState extends State<PracticePage> {
   }
 
   String removeSpecialCharacters(String input) {
-    return input.replaceAll(RegExp(r"[^a-zA-Z0-9\s'’-]"), '');
+    return input.replaceAll(RegExp(r"[^a-zA-Z0-9\s'’-]"), '').replaceAll('’', "'");
   }
 
   /// Each time to start a speech recognition session
